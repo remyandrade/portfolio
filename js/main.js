@@ -82,7 +82,7 @@
 })();
 
 document.getElementById('downloadCvButton').addEventListener('click', function() {
-  const cvUrl = '../remy-resume.pdf'; // Replace with the actual path to your CV file
+  const cvUrl = './remy-resume.pdf'; // Replace with the actual path to your CV file
   const link = document.createElement('a');
   link.href = cvUrl;
   link.download = 'Remy Andrade - Resume.pdf'; // Replace with the desired file name
